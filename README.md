@@ -50,6 +50,7 @@ The standard way of doing path audit queries:
 http://localhost:8080/alfresco/service/api/audit/nodequery/alfresco-access/alfresco-access/transaction/path?verbose=true&forward=false&value=/app:company_home/...
 
 How you can do an audit query based on node ref with this module:
+
 http://localhost:8080/alfresco/service/rl/audit/nodequery/alfresco-access/alfresco-access/transaction/path?verbose=true&forward=false&value=workspace://SpacesStore/d77a6aa1-bac8-42e4-8df8-2faf1a085622
 
 
