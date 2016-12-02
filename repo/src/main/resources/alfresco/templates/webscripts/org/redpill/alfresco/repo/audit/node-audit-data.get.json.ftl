@@ -1,0 +1,1 @@
+<#include "/org/alfresco/repository/audit/query.get.json.ftl" />
