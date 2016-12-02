@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+  
+  <!-- ***************************************************************************************************** -->
+  <!-- Report site statistics web script and utility classes -->
+  <!-- ***************************************************************************************************** -->
+
+  <bean id="webscript.org.redpill.alfresco.repo.audit.node-audit-data.get" class="org.redpill.alfresco.repo.audit.scripts.AuditNodeQueryGet" parent="webscript.org.alfresco.repository.audit.query.get">
+    <property name="nodeService" ref="NodeService" />
+    <property name="namespaceService" ref="NamespaceService" />
+  </bean>
+
+</beans>
+  
